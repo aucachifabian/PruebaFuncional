@@ -1,0 +1,76 @@
+.car-down {
+    padding-top: 20px;
+}
+.ui-corner-all {
+    border-top-right-radius: 0 !important;
+}
+.ui-corner-all {
+/*     border-bottom-right-radius: 30px !important; */
+}
+
+.ui-slider-horizontal {
+    height: 5px;
+    background: #bdbdbd !important;
+    border: none !important;
+}
+
+/*span.ui-slider-handle.ui-corner-all.ui-state-default {
+    background-color: #f4f4f4 !important;
+}*/
+.ui-slider .ui-slider-handle {
+    width: 50px;
+    height: 35px;
+    background: url(../img/car_icon.svg) no-repeat;
+    border: none;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.monthPaySlider > .ui-slider-handle  {
+  margin-left: -14px !important;
+}
+
+.pricePaySlider > .ui-slider-handle  {
+  margin-left: -14px !important;
+}
+
+.ui-datepicker table {
+  font-size: 16px;
+}
+
+.ui-widget.ui-widget-content {
+  border: none;
+}
+/*.ui-corner-all {
+  border-bottom-right-radius: 0px !important;
+}*/
+.ui-widget-content {
+  border: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: none;
+  background-color: none;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {
+  border: none;
+
+
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background-color: transparent !important;
+}
+.ui-widget-header {
+  border: none;
+}
+.ui-widget-header {
+	background: #1e2336;
+  /* background: #004481; */
+}
+.ui-widget-header.ui-datepicker-header {
+    background: white;
+}
+
+:focus{
+  outline: none;
+}

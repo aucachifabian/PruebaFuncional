@@ -1,0 +1,312 @@
+/*by Matias Gonzalez*/
+
+/* inicio-7.html */
+
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-container .item-col{
+    flex: 1 0 calc(33.33%);
+    padding: 5px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    max-width: 365px;
+    margin-bottom: 4rem !important;
+}
+
+/* /* inicio-1.html */ */
+/* #accordion1{ */
+/*     display:none; */
+/* } */
+
+/* detalle.html */
+
+.accordion-block{
+    display: block !important;
+}
+
+/* inicio-3.html */
+#options-model-car{
+    display:none;
+}
+
+/* inicio-4.html */
+.jumbotron-c{
+    padding: 30px !important;
+    background-color: #fff;
+    border-radius: 0px !important;
+}
+.jumbotron-c .title-c{
+    font-size: 20px !important;
+    color: #004b8c;
+    text-align: left;
+}
+.jumbotron-c .subtitle-c{
+    text-align: start;
+    color: #004b8c;
+    font-size: 14pt;
+}
+.jumbotron-c p a{
+    width: 100%;
+}
+
+/* inicio-2.html */
+.back-style{
+    background-color: #eee;
+    padding-top: 30px;
+}
+.back-style div .btn{
+    background-color: #02a5a5;
+}
+
+/* inicio-5.html */
+.container-models{
+    background-color: #f9f9fb;
+    padding: 0;
+}
+.container-models .image-container{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cont-links{
+    transition: 0.8s;
+    webkit-transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.container-models span{
+    position: relative;
+    display: inline;
+    font-size: 15px;
+    color: #40b2da;
+    font-weight: 700;
+}
+.cont-links .pad-cont{
+    padding: 15px;
+}
+.more-button{
+    position: absolute;
+    bottom: -20px;
+    transition: 0.8s;
+}
+.more-button span a{
+    color: #40b2da;
+}
+.more-button .icon-mas-circulo{
+    position: relative;
+    left: 0;
+    top: 0px;
+
+}
+.cont-links:hover{
+    transform: translateY(-43px);
+    webkit-transform: translateY(-43px);
+}
+.cont-links:hover .more-button{
+    transform: translateY(-20px);
+}
+
+/* inicio-6.html */
+.image-header-carrousel{
+/* 	min-height: 400px !important;
+    max-height: 400px !important; */
+    height: 500px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron-c2{
+    width: 300px;
+    padding: 25px !important;
+    background-color: #eee;
+    border-radius: 5px !important;
+    box-shadow: 4px 8px 18px #888888;
+    position: absolute;
+    bottom: -100px;
+    left: 200px;
+    z-index: 9999999999999;
+}
+.jumbotron-c2 .title-c2 {
+    font-size: 18px !important;
+    color: #004b8c;
+    text-align: left;
+}
+.jumbotron-c2 .subtitle-c2 {
+    text-align: start;
+    color: #004b8c;
+    font-size: 12pt;
+}
+.jumbotron-c2 p a{
+    width: 100%;
+}
+.jumbotron-c2 p{
+    margin-bottom: 5px;
+}
+/*slick css properties*/
+.slick-container{
+    width: 100%;
+    clear: both;
+    display: block;
+}
+.slick-container .arrow-custom{
+    transition: background-color .4s;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255,255,255,.6);
+    background-image: none;
+    z-index: 9999999999999999;
+    color: #0078d2;
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -35px;
+}
+.slick-container .back-custom{
+    left: 0;
+}
+.slick-container .next-custom{
+    right: 0;
+}
+.slick-container .arrow-custom:hover{
+    background-color: rgba(255, 255, 255, 0.83);
+}
+.slick-dots-custom{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    z-index: 9999999999999999999999;
+}
+.slick-dots-custom li{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots-custom li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(232, 232, 232);
+    border: 0;
+    outline: none;
+    background: rgb(232, 232, 232);
+    border-radius: 60px;
+}
+.slick-dots-custom .slick-active button{
+    color: rgb(2, 165, 165);
+    border-radius: 60px;
+    background: rgb(2, 165, 165);
+   
+}
+.slick-content-carrousel{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+.cont-details-cars{
+    margin-top: 120px;
+}
+
+/* index-4 */
+.jumbotron-c2-index4{
+	width: 300px;
+    padding: 25px !important;
+    background-color: #eee;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 9999999999999;
+    bottom: unset;
+    border-radius: unset !important;
+    box-shadow: unset !important;
+}
+
+.glypicon-custom{
+	font-size: 22px;
+}
+
+/* media query */
+@media only screen and (max-width: 1200px){
+    .jumbotron-c2{
+        left: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+
+    /* inicio-7.html */
+    .item-container .item-col{
+        flex: 1 0 calc(50%);
+    }
+
+    /* inicio-6.html */
+
+    .cont-details-cars{
+        margin-top: 60px;
+    }
+
+    .jumbotron-c2{
+        width: 100%;
+        padding: 25px !important;
+        background-color: #eee;
+        border-radius: 5px !important;
+        box-shadow: none;
+        position: unset;
+        bottom: inherit;
+        left: inherit;
+    }
+
+    .jumbotron-c2 .title-c2{
+        text-align: center;
+    }
+
+    .jumbotron-c2 .subtitle-c2{
+        text-align: center;
+    }
+
+    .image-header-carrousel{
+        height: 300px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .slick-content-carrousel{
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        text-align: center;
+        left: 0;
+    }
+
+    .slick-container h1{
+        font-size: 2.9rem;
+    }
+
+    .slick-container h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .item-container .item-col{
+        flex: 1 0 calc(100%);
+    }
+
+}

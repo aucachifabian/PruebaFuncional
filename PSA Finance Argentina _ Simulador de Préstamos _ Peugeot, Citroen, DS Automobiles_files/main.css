@@ -1,0 +1,1494 @@
+header#main {
+  background: #000 none repeat scroll 0 0;
+  color: #ffffff;
+  min-height: 70px;
+}
+
+.header-btm {
+  top: 30px;
+}
+
+img#maserati {
+  width: 100%;
+  height: 700px;
+}
+
+
+/*Header logo index.html*/
+
+.logo-cust {
+  display: inline;
+  width: 140px;
+  position: relative;
+  top: 0px;
+}
+
+#bbva_logo {
+  width: 250px;
+  padding-bottom: 7px;
+  padding-top: 28px;
+}
+
+#psa_logo{	
+  width: 90px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#dealer-brand {
+  font-family: 'BentonSansBBVA light';
+  font-size: 38px;
+}
+
+#logo-xs-cust {
+  display: inline;
+  position: relative;
+  top: -9px;
+  width: 240px;
+}
+
+#xs-bbva_logo {
+  background: rgba(0, 0, 0, 0) url("../img/bbva.png") no-repeat scroll left center / 46px auto;
+  font-family: "BentonSansBBVA light", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-left: 50px;
+  padding-top: 2px;
+}
+
+
+/*End Header logo index.html*/
+
+
+/*Small devices Tablets (≥768px)*/
+
+
+/*@media only screen and (max-width:768px){
+    .change-car-modal {
+    width: 77%;
+  }
+.link-right {
+	cursor: pointer;
+    position: relative;
+    top: -4px;
+}
+    .save-info-modal {
+    left: 25%;
+    width: 75%;
+}
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 0;
+    right: 50%;
+}
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 50%;
+    margin-left: 0;
+}
+    .cust-bbva-modal {
+    padding:2.5em 2em 2.5em 2em;
+}
+     .cancel-btn {
+    padding: 13px 0px 13px 0px;
+}
+    .text-xlg {
+    font-size: 130%;
+}
+    .save-bbva-modal{
+       padding: 2.5em 1em 2.5em 2em;
+    }
+.financing-option-top:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+}
+.financing-option-top:after {
+    bottom: 0;
+    -webkit-transform: skewY(-9deg);
+    transform: skewY(-9deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+}
+    .financing-option-bottom{
+        background-color: #fff;
+            padding: 0px 14px 10px;
+    }
+}*/
+
+
+/*Medium devices Desktops*/
+
+
+/*Large devices Desktops*/
+
+.navbar-inverse {
+  background-color: inherit;
+}
+
+.glyphicon-search {
+  padding-top: 5px;
+  font-size: 23px;
+  color: #fff;
+  top: 12px;
+}
+
+#image-banner .image-header-overlay {
+  background-color: inherit;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-lg {
+  font-size: 125%;
+}
+
+h2 a#changeCar {
+  font-size: 0.5em;
+  padding-left: 12px;
+}
+
+.form-group label {
+  color: #B59D9D;
+}
+
+
+/*Nav Icons*/
+
+.ico-to_myprofile {
+  font-size: 27px;
+}
+
+.ico-to_home {
+  font-size: 27px;
+}
+
+.ico-oa_build {
+  font-size: 27px;
+}
+
+.padding-top-xs {
+  padding-top: 7px;
+}
+
+.padding-top-sm {
+  padding-top: 10px;
+}
+
+.padding-top-md {
+  padding-top: 15px;
+}
+
+.padding-top-lg {
+  padding-top: 25px;
+}
+
+.padding-top-xlg {
+  padding-top: 35px;
+}
+
+.padding-left-lg {
+  padding-left: 15px;
+}
+
+.padding-left-xl {
+  padding-left: 25px;
+}
+
+.padding-left-xlg {
+  padding-left: 35px;
+}
+
+.padding-lg {
+  padding: 31px;
+}
+
+.padding-lg-right {
+  padding-right: 25px;
+}
+
+.padding-lg-tb {
+  padding: 25px 0px 10px;
+}
+
+.padding-xlg {
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.reset {
+  padding: 0;
+  margin: 0;
+}
+
+.ml-0 {
+  margin-left: 0rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.ml-4 {
+  margin-left: 4rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.mt-0 {
+  margin-top: 0rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.margin-lg {
+  margin: 45px;
+}
+
+.margin-btm {
+  margin-bottom: 1rem;
+}
+
+.margin-btm-lg {
+  margin-bottom: 2rem;
+}
+
+.margin-btm-xl {
+  margin-bottom: 5rem;
+}
+
+.margin-no-btm {
+  margin-bottom: 0;
+}
+
+.margin-no-top {
+  margin-top: 0;
+}
+
+.min-height-500 {
+  min-height: 500px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.btn.btn-primary.alignbtn {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.display-table {
+  display: table;
+}
+
+.signin {
+  display: table-cell;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.margin-radio {
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+a:hover, a:active, a:focus {
+  border-bottom: none;
+}
+
+.lead {
+  margin-bottom: 6px;
+  color: #004481;
+  font-size: 26px;
+}
+/*
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	
+	.datos-personales {
+		margin-bottom: 5% !important;
+	}
+	
+	.datos-adicionales {
+   		margin-bottom: 8% !important;
+   	}
+   	
+   	.lead {
+   		margin-bottom: 8% !important;
+   	}
+   	
+   	.padding-top-5{
+   		padding-top: 5% !important;	
+   	}
+   	
+   	.padding-top-2{
+   		padding-top: 2% !important;	
+   	}
+}
+*/
+/*.link-right{
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+}*/
+
+.img-box {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  margin: 0 auto;
+  opacity: 0.84;
+}
+
+.doc-space {
+  padding-top: 10px;
+  height: 77px;
+}
+
+
+/*navbar-inverse styles*/
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding: 35px 15px;
+}
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand:visited, .navbar-brand a:focus {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav>li {
+  padding-top: 1.5em;
+}
+
+.navbar-right>li {
+  padding-top: 1.5em;
+}
+
+.collapse.in {
+  background-color: inherit;
+}
+
+.form-group input[type="text"] {
+  background: #f4f4f4 none repeat scroll 0 0;
+  cursor: pointer;
+}
+
+.form-dropdown select option {
+  /*background: #fff none repeat scroll 0 0;*/
+  color: #000;
+}
+
+.flex {
+  display: inline-flex;
+}
+
+.basic-top {
+  top: 40px;
+}
+
+.angled-purple {
+  background: #A487E7 none repeat scroll 0 0;
+}
+
+.angled-red {
+  background: #F54E4E none repeat scroll 0 0;
+}
+
+.angled-blue {
+  background: #42BFCB none repeat scroll 0 0;
+}
+
+.angled-orange {
+  background: #EFB239 none repeat scroll 0 0;
+}
+
+.bg-white {
+  background: #FFFFFF none repeat scroll 0 0;
+}
+
+.bg-black {
+  background-color: #080808;
+}
+
+.drag-and-drop-area {
+  background-color: #fff;
+  border: 1px dashed #CCCCCC;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.drag-and-drop-area input[type="file"] {
+  display: none;
+}
+
+.drag-and-drop-area .upload-file-btn {
+  background: #CCCCCC none repeat scroll 0 0;
+  padding: 5px 10px;
+}
+
+.glyphicon-info-sign {
+  color: #CCCCCC;
+  padding-left: 5px;
+  cursor: help;
+}
+
+.glyphicon-bold {
+  color: #1973B8;
+  cursor: help;
+}
+
+.close-app {
+  color: #698BED;
+  font-size: 30px;
+  font-weight: 110;
+  line-height: 1;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.form-group input[type="text"]:focus {
+  background-color: #f4f4f4;
+}
+
+.text-yellow {
+  color: #e4d956 !important;
+}
+
+.bg-tooltip+.tooltip>.tooltip-inner {
+  background-color: #fff;
+}
+
+.tooltip-inner {
+  border: 1px solid #0000ff;
+  max-width: 300px;
+  width: 280px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #000000;
+  /* black */
+  border-width: 0 5px 5px;
+}
+
+
+/* Angled edges*/
+
+.financing-option {
+  background: #fff;
+}
+
+.financing-option-top {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  margin-bottom: 50px;
+  padding: 15px 15px 0px;
+}
+
+
+/* Bootstrap Carousel Override */
+
+.carousel {
+  padding: 0px;
+}
+
+.carousel-inner {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.carousel-control {
+  opacity: 1;
+  text-shadow: none;
+  width: 2%;
+}
+
+.carousel-control.left {
+  background: none;
+  left: 15px;
+}
+
+.carousel-control.right {
+  background: none;
+  left: auto;
+  right: 15px;
+}
+
+.carousel a.carousel-control:hover, .carousel a.carousel-control:focus {
+  border: 0;
+}
+
+.financing-option-bottom>div {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+
+/* Custom modal properties*/
+
+.contract-modal {
+  width: 27%;
+}
+
+.contract-moadl-body {
+  padding: 2.5em 4em 1.5em 6rem;
+}
+
+
+/*.change-car-modal{
+    width: 32%;
+}*/
+
+
+/* modal*/
+
+.closed {
+  display: none;
+}
+
+
+/*Google map style*/
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+.auto-width {
+  width: auto;
+}
+
+
+/*tab wizard*/
+
+.tab-content {
+  padding: 1rem 0;
+}
+
+
+/*Icons*/
+
+.fa-facebook-square {
+  color: #5B59F7;
+  font-size: 60px;
+}
+
+.fa-google-plus-square {
+  color: #F15B5B;
+  font-size: 60px;
+}
+
+.fa-marker {
+  padding-right: 20px;
+  display: inline;
+  font-size: 30px;
+  color: #396AE3;
+}
+
+.fa-phone {
+  padding-right: 20px;
+  display: inline;
+  font-size: 25px;
+  color: #396AE3;
+}
+
+.ico-sn_bbvaofice {
+  font-size: 24px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 18px;
+}
+
+
+/*extra classes*/
+
+h2 span.link-right a {
+  font-size: 0.5em;
+}
+
+
+/*.save-info-modal {
+    width: 55%;
+    left: 25%;
+}*/
+
+.financing-option-bottom {
+  background-color: #fff;
+  padding: 0px 15px 15px;
+}
+
+.financing-option-top:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+
+.financing-option-top:after {
+  bottom: 0;
+  -webkit-transform: skewY(-11deg);
+  transform: skewY(-11deg);
+  -webkit-transform-origin: 100%;
+  transform-origin: 100%;
+}
+
+.modal-body.cust-bbva-modal {
+  padding: 2.5em 5.5em 1.5em;
+}
+
+.cancel-btn {
+  padding: 0px;
+}
+
+.text-xlg {
+  font-size: 150%;
+}
+
+.btn.btn-link {
+  color: #1973b8;
+  text-align: left;
+  background: transparent;
+  padding-left: 0;
+  min-width: 0;
+  width: auto;
+}
+
+.btn+.btn, .btn+.btn-link, .btn+a {
+  display: inline-block;
+}
+
+.loader-container {
+  position: fixed;
+  top: calc(50vh - 50px);
+  right: calc(50vw - 50px);
+  margin: 0 auto;
+  z-index: 1000;
+  display: none;
+}
+
+.panel-heading.accordion-toggle {
+  padding: 21px 0px;
+}
+
+.panel-heading.accordion-toggle:after {
+  position: absolute;
+  top: 17px;
+  right: 0px;
+}
+
+
+/*extra classes*/
+
+@media (max-width:767px) {
+  .image-header {
+    height: auto;
+  }
+  .cancel-btn {
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .js-signin-btn {
+    width: 100%;
+  }
+  .xs-align-center {
+    text-align: center;
+  }
+  .xs-align-left {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .change-car-modal {
+    width: 39%;
+  }
+  .save-info-modal {
+    width: 40%;
+  }
+  .link-right {
+    text-align: right;
+  }
+  .img-box {
+    /*view port width*/
+    width: 35vw;
+  }
+  .carousel-control.left {
+    left: 3px;
+  }
+  .carousel-control.right {
+    right: 3px;
+  }
+  /*
+    .link-right {
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+}
+    .save-info-modal{
+    width: 55%;
+    left: 25%;
+}
+    .financing-option-bottom {
+    background-color: #fff;
+    padding: 0px 15px 15px;
+}
+.financing-option-top:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+}
+.financing-option-top:after {
+    bottom: 0;
+    -webkit-transform: skewY(-11deg);
+    transform: skewY(-11deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+}
+    .modal-body.cust-bbva-modal {
+    padding: 2.5em 5.5em 1.5em;
+}
+    .cancel-btn{
+    padding: 25px 25px 25px 0px;
+}
+.text-xlg {
+    font-size: 150%;
+}
+*/
+}
+
+
+/*@media only screen and (min-width:1200px) {*/
+
+
+/*.link-right {
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+}
+    .save-info-modal{
+    width: 55%;
+    left: 25%;
+}
+    .financing-option-bottom {
+    background-color: #fff;
+    padding: 0px 15px 15px;
+}
+.financing-option-top:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+}
+.financing-option-top:after {
+    bottom: 0;
+    -webkit-transform: skewY(-11deg);
+    transform: skewY(-11deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+}
+    .modal-body.cust-bbva-modal {
+    padding: 2.5em 5.5em 1.5em;
+}
+    .cancel-btn{
+    padding: 25px 25px 25px 0px;
+}
+.text-xlg {
+    font-size: 150%;
+}*/
+
+
+/*}*/
+
+
+/*finance CSS*/
+
+.down-payment {
+  color: #666666;
+  padding-top: 43px;
+}
+
+.price-payment {
+  color: #666666;
+  padding-top: 43px;
+}
+
+.down-mon-term-size {
+  font-size: 17px;
+  color: #666666;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.monthly-payment {
+  color: #666666;
+  font-weight: normal;
+  padding-top: 25px;
+}
+
+.terms {
+  color: #666666;
+  font-weight: normal;
+  padding-top: 25px;
+}
+
+.term-content {
+  padding-top: 11px;
+}
+
+.click-padding {
+  padding-left: 20px;
+}
+
+.form-group-bbva label {
+  font-weight: 400;
+}
+
+.form-group-bbva label .faux-box {
+  border: medium none !important;
+}
+
+.form-finance-checkbox {
+  padding-bottom: 26px;
+  padding-top: 35px;
+}
+
+.form-finance-checkbox2 {
+  padding-bottom: 26px;
+  padding-top: 0px;
+}
+
+.form-finance-checkbox .smallmargin {
+  margin-bottom: 34px;
+}
+
+.form-group-bbva label .faux-box {
+  margin-right: 15px;
+}
+
+.click-color {
+  color: #004481;
+  font-size: 15px;
+  width: 100%;
+}
+
+.meterBlock {
+  padding: 45px;
+  background-color: white;
+}
+
+.loanSummary {
+  font-weight: bold;
+  margin-bottom: 35px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.imageBlock {
+  text-align: center;
+}
+
+.textBlock {
+  text-align: center;
+  /*width: 246px;*/
+  margin: auto;
+  position: relative;
+  bottom: 56px;
+}
+
+.terms-txtblock {
+  font-size: 17px;
+}
+
+.block p {
+  color: #fff;
+}
+
+.count {
+  font-size: 26px;
+  margin-right: 10px;
+}
+
+.row.main {
+  position: relative;
+  margin-bottom: -50px;
+}
+
+.main {
+  font-size: 16px;
+  bottom: 40px;
+  color: #fff;
+}
+
+.monthRate {
+  border-left: 2px solid #e6d5a4;
+}
+
+h3.click-padding {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2a86ca;
+  width: 100%;
+  padding-top: 62px;
+}
+
+.remember-me input[type="checkbox"]:checked+label .faux-box:before, .form-group-bbva input[type="checkbox"]:checked+label .faux-box:before {
+  color: #004481;
+  content: "\e904";
+  font-family: 'bbva-sn-icons';
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+.save-back-next {
+  padding-top: 45px;
+}
+
+.make-vehicle {
+  padding-top: 15px;
+  height: 80px;
+}
+
+.see-finance-options {
+  padding: 1.6rem 7.5rem;
+}
+
+.authorizecheckbox {
+  font-family: "BentonSansBBVA Book", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.newapplication {
+  padding-bottom: 43.6px;
+}
+
+.radio-button-padding {
+  padding: 0px 0px 0px 0px;
+}
+
+.btn-secondary {
+    background-color: #237aba;
+}
+
+.calendar-details {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  color: #2a86ca;
+  font-size: 22px;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body, .panel-group .panel {
+  background-color: #fff;
+}
+
+.panel-group {
+  background-color: #fff;
+  padding: 0px;
+}
+
+.panel-default>.panel-heading {
+  background-color: #fff;
+}
+
+.form-group-bbva label .faux-box {
+  background-color: #f4f4f4;
+}
+
+.panel-body {
+  padding: 0px;
+}
+
+.finance-color {
+  color: #666666;
+  display: inline-block;
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.see-finance-options-padding {
+ margin: 31px 0px 31px 0px;
+
+}
+.form-group-bbva
+{
+  margin-bottom: 0px !important;
+}
+
+fieldset.radio-button ul li:first-child {
+  margin-right: 40px;
+}
+.decision-loansummary {
+  border-radius: 1px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    border: solid 1px #f4f4f4;
+
+
+}
+.dec-loanamnt-wrap > ul li:before, ul li li li:before, ul li li li li li:before {
+    color: #d3d3d3;
+    content: "\e926";
+    display: block;
+    font-family: 'bbva-oa-icons';
+    font-size: 1em;
+    line-height: 1em;
+    margin-left: -1.5em;
+    position: absolute;
+}
+
+.dec-downpayment-wrap  > ul li:before, ul li li li:before, ul li li li li li:before {
+    color: #d3d3d3;
+    content: "\e926";
+    display: block;
+    font-family: 'bbva-oa-icons';
+    font-size: 1em;
+    line-height: 1em;
+    margin-left: -1.5em;
+    position: absolute;
+}
+.border-after-loan {
+    border: 0;
+    border-top: solid 1px #d3d3d3;
+    margin-bottom: 30px;
+    margin-left: 14px;
+    margin-right: 14px;
+
+
+}
+
+.decision-approval-text + hr {
+  filter: blur(0px);
+  border-width: 1px;
+
+}
+
+hr:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 53%;
+    top: -8px;
+    height: 10px;
+    left: 23%;
+    border-radius: 100px / 5px;
+    box-shadow: 0 0 11px rgba(102, 102, 102, 0.1);
+}
+.ico-to_download {
+  color: #2a86ca;
+  margin: 0px 5px 0px 0px;
+}
+
+.decision-download-summary {
+  color: #2a86ca;
+  padding: 0px 0px 19px 0px;
+}
+.decision-fund {
+  margin: 36px 0px 47px 0px;
+  text-shadow: 0 0px 0px rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+.dec-downpayment {
+    display: inline-block;
+    font-size: 18px;
+    color: #000000;
+    font-family: "BentonSansBBVA Book", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.loan-decision {
+   font-size: 16px;
+   color: #666666;
+   font-family: "BentonSansBBVA Book", "Helvetica Neue", Arial, Helvetica, sans-serif;
+   padding: 19px 0px 0px 0px;
+}
+.dec-loanamnt {
+  color: #000000;
+  font-size: 26px;
+  font-family: "BentonSansBBVA Book", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+.nav-tabs li>a:after {
+  background-color: #237aba;
+  opacity: 0.2;
+}
+.dec-term-container {
+  display: flex;
+  align-items: baseline;
+}
+.min-height-500 h2 span {
+    font-family: "BentonSansBBVA book", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  }
+
+h4 b {
+  padding-left: 15px;
+  font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+li b {
+    padding-left: 8px;
+    font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h5 b {
+    padding-left: 12px;
+    font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.nav-tabs li>a span {
+    color: rgba(0, 68, 129, 0.4);
+}
+
+.nav-tabs li.active>a span {
+    color: #004481;
+}
+
+.authorizecheckbox > b {
+  font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.decision-checkbox label{
+    color: #004481;
+}
+
+
+
+.finance-fund {
+  text-shadow: 0 0px 1px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  padding: 20px 0px 45px 0px;
+}
+.count > small {
+  font-size: 66%;
+}
+.finance-radio {
+  color: #004481;
+}
+.finance-radio > b {
+  font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+footer {
+  padding: 25px 0px 0px 0px !important;
+}
+
+footer .logo img {
+  width: 70px;
+}
+
+.decision-text-isa {
+  font-size: 36px;
+}
+
+.decision-text-sol {
+  font-size: 28px;
+}
+.decision_car {
+  padding: 0px 0px 48px 0px;
+
+}
+
+.nav-tabs li.active>a:after {
+  opacity: 1;
+  background-color: #237aba;
+}
+
+.color-white input[type="text"] {
+  background-color: #fff;
+}
+
+.color-white input[type="text"]:focus {
+  background-color: #fff;
+}
+
+.decision-border {
+  background: #f4f4f4;
+  border: solid 17px #f4f4f4;
+}
+
+
+
+
+
+@media (min-width: 1200px)
+
+{
+.container {
+    width: 1099px;
+  }
+}
+
+.container {
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+@media (max-width: 764px) {
+  h4 b {
+    padding-left: 0px;
+    font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+  }
+  .dec-term-container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  h5 b {
+      padding-left: 0px;
+      font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  }
+
+}
+.upload-box{
+  border: 0px solid #CCCCCC;
+  background-color: #f4f4f4;
+}
+
+.upload-document {
+  font-size: 32px;
+  color: #304857;
+}
+.upload-document + h4 {
+  color: #304857;
+  font-family: "BentonSansBBVA Book", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+
+}
+.drag-and-drop-area > span {
+  font-size: 12px;
+}
+
+
+.upload-document + h4 + h5 {
+  font-size: 18px;
+  color: #304857;
+}
+
+.upload-document-wrap {
+  padding: 40px 0px 40px 0px;
+}
+
+.upload-next {
+  font-family: "BentonSansBBVA Book", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 30px 0px 0px 0px;
+  font-size: 24px;
+}
+.upload-address-document {
+  padding-bottom: 20px;
+}
+.doc-space {
+  padding-top: 10px;
+}
+header.container-fluid nav.navbar .navbar-header {
+    float: none;
+    padding-top: 0px;
+}
+header.container-fluid .top-nav ul {
+    justify-content: flex-end;
+    position: absolute;
+    right: 15px;
+    top: -2.75em;
+    width: 100%;
+}
+header.container-fluid .main-nav ul:last-child {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    top: 13px;
+  }
+  a.margin-lg {
+    margin: 45px;
+}
+
+.image-header {
+  height: 304px;
+  margin-bottom: 3.5em;
+}
+@media only screen and (min-width: 992px)
+{
+.change-splash-modal {
+    width: 911px;
+}
+}
+.splash-button-position {
+    position: absolute;
+    bottom: 69px;
+}
+.splash-button {
+    background-color: #004481;
+}
+
+input[type=checkbox]:checked {
+  background-color: green;
+}
+@media (max-width: 991px) {
+  .form-group-label {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 1199px) {
+    .main {
+      text-align: center;
+    }
+}
+@media (max-width: 991px) {
+    .car-down {
+      padding-bottom: 20px;
+    }
+  }
+@media (max-width: 991px) {
+    .down-mon-term-size {
+      width: 100%;
+    }
+  }
+
+@media (max-width: 30em) {
+  .splash-button.btn {
+    position: absolute;
+    padding: 0.3rem 10%;
+    left: 81px;
+    top: 21px;
+  }
+}
+.icono {
+	background-position: center center;
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 100px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+}
+
+  .icono-lg {
+		margin-top:0px;
+	height: 120px;
+	width: 120px;
+}
+
+.sedan {background-image: url(iconos/sedan.svg);}
+.puertas {background-image: url(iconos/puertas.svg);}
+.precio {background-image: url(iconos/precio.svg);}
+.marca {background-image: url(iconos/marca.svg);}
+.cabriolet {background-image: url(iconos/cabriolet.svg);}
+.coupe {background-image: url(iconos/coupe.svg);}
+.familiar {background-image: url(iconos/familiar.svg);}
+.hatchback {background-image: url(iconos/hatchback.svg);}
+.monovolumen {background-image: url(iconos/monovolumen.svg);}
+.pickup {background-image: url(iconos/pickup.svg);}
+.sedanx {background-image: url(iconos/sedanx.svg);}
+.todoterreno {background-image: url(iconos/todoterreno.svg);}
+.utilitario {background-image: url(iconos/utilitario.svg);}
+
+@media (max-width: 991px) {
+	  .icono {
+		height: 30px;
+		width: 70px;
+	}
+	  .icono-lg {
+		height: 70px;
+		width: 70px;
+	}
+}
+
+.col-custom {
+	width: 50%;
+	float: left;
+}
+

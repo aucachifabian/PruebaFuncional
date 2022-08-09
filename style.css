@@ -1,0 +1,116 @@
+
+.nissan{
+    width: 100%;
+}
+
+.img-aseguradora:hover{
+    border:2px solid #7685cae7 ;
+}
+
+.btn-me{
+    background-color: #f7f7f7;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.btn-me:hover{
+    transform: translateY(5px);
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+}
+
+th img{
+    width: 50%;
+   
+}
+
+.th-img{
+    text-align: center !important;
+}
+
+.mx-auto{
+    margin-right: auto!important;
+    margin-left: auto!important;
+    float: none;
+}
+
+.min-vh-100{
+    min-height: 100vh!important;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: calc(var(--bs-nav-tabs-border-width) * -1);
+    background: 0 0;
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+}
+
+.nav-link{
+display: block;
+padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+font-size: var(--bs-nav-link-font-size);
+font-weight: var(--bs-nav-link-font-weight);
+color: var(--bs-nav-link-color);
+text-decoration: none;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+.active .nav-link{
+    border-left: 1px solid rgb(221, 209, 209);
+    border-right: 1px solid rgb(219, 211, 211);
+    border-top: 1px solid rgb(218, 202, 202);
+}
+
+.bs-example::after{
+    content: "" !important;
+}
+
+
+.fs-6 { font-size: calc(0.6em + 0.6vw) }
+
+
+@media (max-width: 570px) { 
+    .modal-body{
+        padding: 0px !important;
+    }
+
+    .table td {
+     display: table-cell !important;
+    }
+
+
+tr .fs-6{
+    width: 10px;
+    font-size: calc(0.3em + 0.2vw)!important;
+}
+
+
+.th-img img{
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+}
+
+.th-img{
+    width: 20%;
+    padding: 10px !important;
+}
+    
+}
+
+@media (max-width: 560px) { 
+
+  
+
+  .th-img{
+    padding: 10px !important;
+}
+
+tr .fs-6{
+    width: 17;
+    font-size: calc(0.5em + 0.4vw)!important;
+}
+
+}
